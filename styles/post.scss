@@ -1,0 +1,30 @@
+.post-title {
+  line-height: 1.5rem;
+  text-decoration: underline;
+  text-decoration-color: #ff572f;
+  text-decoration-thickness: 0.075em;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    text-decoration-thickness: 0.275em;
+  }
+}
+
+.post-article {
+  padding: 8px;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  line-height: 2;
+  border-radius: 20px;
+}
+.center-content {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.go-back-button {
+  position: fixed;
+  left: 8px;
+  top: 12px;
+}

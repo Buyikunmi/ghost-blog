@@ -4,12 +4,15 @@ import styles from "../styles/Home.module.scss";
 
 import Link from "next/link";
 
-const BLOG_URL = "http://18.221.243.227";
-const CONTENT_API_KEY = "7cb7abfa30953aa54a42d9b316";
+import Header from "../components/Header";
+// import ProgressBar from "../components/ProgressBar";
+
+const { CONTENT_API_KEY, BLOG_URL } = process.env;
 
 type Post = {
   title: String;
   slug: String;
+  reading_time: Number;
 };
 
 async function getPosts() {
@@ -28,21 +31,24 @@ export const getStaticProps = async ({ params }) => {
   const posts = await getPosts();
   return {
     props: { posts },
+    revalidate: 10,
   };
 };
 
 const Home: React.FC<{ posts: Post[] }> = (props) => {
   const { posts } = props;
-  console.log(posts);
+  // console.log(posts);
   return (
-    <div className={styles.container}>
-      <h1>Hello world 😊, Welcome to my blog</h1>
+    <div className="container px-5">
+      <Header />
+      <h1>Hello 😊, Welcome to my blog </h1>
+
       <ul>
         {posts.map((post, index) => {
           return (
-            <li key={index}>
+            <li className="post-article" key={index}>
               <Link href="/post/[slug]" as={`/post/${post.slug}`}>
-                <a> {post.title}</a>
+                <a className="post-title"> {post.title}</a>
               </Link>
             </li>
           );

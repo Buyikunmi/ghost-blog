@@ -1,11 +1,21 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.goBack {
+  cursor: pointer;
+  background-color: rgb(38, 0, 255);
+  padding: 2px;
+  border-radius: 16px;
+}
+.disqus_container {
+  width: 100vw;
+  padding: 20px;
 }
 
 .main {
