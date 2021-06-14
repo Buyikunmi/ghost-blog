@@ -23,6 +23,12 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .go-back-button {
+    display: none;
+  } /* show it on small screens */
+}
+
 .go-back-button {
   position: fixed;
   left: 8px;

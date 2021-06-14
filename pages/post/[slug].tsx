@@ -80,7 +80,7 @@ const Post: React.FC<{ post: Post }> = (props) => {
       <Link href="/">
         <a className="button mt-2 go-back-button">Go Back</a>
       </Link>
-      <h1>{post.title}</h1>
+      <h1 style={{ marginTop: "1.6em" }}>{post.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
 
       <div className="">
