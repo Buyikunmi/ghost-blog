@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# Referral System
 
-```bash
-npm run dev
-# or
-yarn dev
+This is a simple super-fast ⚡ Blog built with Nextjs.
+Let's connect on [Twitter](https://twitter.com/agik404) and [Github](https://github.com/buyikunmi)
+
+## Live Demo
+Live demo available at [https://ghost-blog-zeta.vercel.app/](https://ghost-blog-zeta.vercel.app/)
+
+# Technologies Used
+
+- Next.js
+- TypeScript
+- SCSS
+
+# Getting Started
+
+- Open your Terminal e.g Git Bash
+- Fork or clone this project on your terminal
+- Add your Ghost CMS api key in the .env file
+- Open the project and install the packages
+- Run the application from your Terminal with
+
+Overview:
+
+```shell
+$ git clone 
+$ cd ghost-blog
+$ npm install
+$ npm start 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your application should be running on [localhost:3000](http://localhost:3000), open your browser and check it out.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Todo:
+[] Add Project Structure
+[] Add Project Guide
+<!-- ## Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+    > components
+       L Header.tsx 
+       L ProgressBar.tsx
+    > pages
+       L post
+        L [slug].tsx
+       L_app.tsx
+       L index.tsx
+    >public
+    >styles
+    >.env
+    
 
-## Learn More
+The **_app.tsx** is the entry point of our application.
 
-To learn more about Next.js, take a look at the following resources:
+**Components** contain the blabla
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Styles** contain the blabla
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Public** contain the  blabla
 
-## Deploy on Vercel
+**Routes** contains the blabla.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Services** handle the blabla
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**Config** contains the blabla
+
+**Public** contains the blabla
+
+**Views** contains the  blabla
+ -->
+## Contributing
+
+This is a completely free and open sourced project. Feel free to contribute. :heart:
+Thanks for reading...
