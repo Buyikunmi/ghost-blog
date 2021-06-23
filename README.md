@@ -1,6 +1,6 @@
 
 
-# Referral System
+# Next.js Ghost Blog
 
 This is a simple super-fast ⚡ Blog built with Nextjs.
 Let's connect on [Twitter](https://twitter.com/agik404) and [Github](https://github.com/buyikunmi)
